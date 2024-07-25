@@ -14,7 +14,7 @@ const Login: React.FC = () => {
     e.preventDefault();
 
     // Example secret key check (replace with your actual authentication logic)
-    const correctSecretKey = 'syedahafsa12'; // Replace with your actual secret key
+    const correctSecretKey = 'syedahafsa12@'; // Replace with your actual secret key
 
     if (secretKey !== correctSecretKey) {
       setError('Incorrect secret key. Please try again.');
