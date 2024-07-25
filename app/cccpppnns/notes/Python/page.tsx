@@ -33,7 +33,8 @@ const Notes: React.FC = () => {
               <li><strong className="font-semibold">To print:</strong> <code>print(&apos;hello&apos;)</code></li>
               <li><strong className="font-semibold">Environment Creation:</strong></li>
               <ul className="list-inside list-disc mt-2">
-                <li><code>conda create -n python12 python==3.12 -y</code> (Here you can add any other name instead of python12, in every folder)</li>
+                <li><code>conda create -n python12 python==3.12 -y</code> (Write all these commands in anaconda terminal 
+                Here you can add any other name instead of python12, in every folder)</li>
                 <li><code>conda activate python12</code> (This will change the folder name from (base) to (python12))</li>
               </ul>
               <li><strong className="font-semibold">Make requirements.txt file:</strong> In the root folder, not in any subfolder</li>
