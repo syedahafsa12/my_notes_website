@@ -1,0 +1,119 @@
+
+{
+    "CPU": {
+      "title": "CPU (Central Processing Unit)",
+      "items": [
+        { "title": "What It Is", "description": "The brain of the computer." },
+        {
+          "title": "Four Basic Jobs",
+          "items": [
+            { "title": "Fetch", "description": "Get the instructions." },
+            { "title": "Decode", "description": "Understand what to do." },
+            { "title": "Execute", "description": "Do the task." },
+            { "title": "Store", "description": "Save the results." }
+          ]
+        }
+      ]
+    },
+    "GPU": {
+      "title": "GPU (Graphics Processing Unit)",
+      "items": [
+        { "title": "What It Is", "description": "Specially made for graphics and high-resolution tasks." },
+        { "title": "Basic Work", "description": "Handles gaming and high-quality images quickly." },
+        { "title": "Example", "description": "Gaming might take 5 minutes; on a CPU, it could take 50 hours." },
+        {
+          "title": "Characteristics",
+          "items": [
+            { "title": "Handles Many Tasks Together", "description": "Good at doing many things at once." },
+            { "title": "Used in AI", "description": "Helps with fast number processing for AI tasks." }
+          ]
+        }
+      ]
+    },
+    "NPU": {
+      "title": "NPU (Neural Processing Unit)",
+      "items": [
+        { "title": "What It Is", "description": "Special chip for machine learning and AI." },
+        { "title": "Basic Work", "description": "Speeds up tasks like text processing in AI." },
+        {
+          "title": "Characteristics",
+          "items": [
+            { "title": "Power Efficient", "description": "Uses less power compared to CPUs." },
+            { "title": "Long Battery Life", "description": "Devices with NPU (e.g., M1, M2 chips) can last 20 hours on battery." },
+            { "title": "Role", "description": "Makes machine learning faster and more efficient." }
+          ]
+        }
+      ]
+    },
+    "Deep Learning": {
+      "title": "Deep Learning",
+      "items": [
+        { "title": "What It Is", "description": "A way for computers to learn from data using neural networks." },
+        {
+          "title": "Characteristics",
+          "items": [
+            { "title": "Learns by Itself", "description": "Neural networks improve by themselves." },
+            { "title": "Generative AI", "description": "A type of deep learning that creates new data similar to what it was trained on." }
+          ]
+        }
+      ]
+    },
+    "LLM": {
+      "title": "LLM (Large Language Model)",
+      "items": [
+        { "title": "What It Is", "description": "Models that understand and generate text like humans." },
+        { "title": "Use", "description": "Helps in creating content, answering questions, and making intelligent responses." }
+      ]
+    },
+    "Applied Generative AI": {
+      "title": "Applied Generative AI",
+      "items": [
+        { "title": "What It Is", "description": "Using generative AI in specific areas." },
+        { "title": "Characteristics", "description": "Tailors AI to do special tasks and produce specific results." }
+      ]
+    },
+    "Docker": {
+      "title": "Docker",
+      "items": [
+        { "title": "What It Is", "description": "A platform for containerization, which helps run software in isolated environments called containers." },
+        { "title": "Basic Work", "description": "Docker runs applications in containers that are isolated from the host system." },
+        { "title": "Installation", "description": "Install Docker and enable WSL (Windows Subsystem for Linux). Verify installation with docker --version." },
+        {
+          "title": "Using Docker",
+          "items": [
+            { "title": "To pull images", "description": "Docker images are available at hub.docker.com." },
+            { "title": "To run a container", "description": "Use the command docker run [image_name]." },
+            { "title": "For interactive mode", "description": "Use docker run -it [image_name]." },
+            { "title": "To build your own image", "description": "Create a Dockerfile and use docker build -t [image_name] ." }
+          ]
+        },
+        {
+          "title": "Making Your Own Image",
+          "items": [
+            { "title": "Dockerfile", "description": "Write a Dockerfile with base image, e.g., FROM python." },
+            { "title": "Copy code", "description": "Copy code to the image with COPY . . ." },
+            { "title": "Specify command", "description": "Specify the command to run with CMD [\"python\", \"main.py\"]." }
+          ]
+        },
+        {
+          "title": "Commands",
+          "items": [
+            { "title": "docker build .", "description": "To build the image." },
+            { "title": "docker run [image_id]", "description": "To run the container with a specific image ID." },
+            { "title": "docker run -it [image_id] bash", "description": "To access the container's terminal." },
+            { "title": "docker ps", "description": "To list running containers." },
+            { "title": "docker rm [container_id]", "description": "To remove a container." },
+            { "title": "docker rmi [image_id]", "description": "To remove an image." }
+          ]
+        },
+        {
+          "title": "Working with Dependencies",
+          "items": [
+            { "title": "Use Poetry", "description": "To manage dependencies within Docker. See Poetry Documentation." },
+            { "title": "WORKDIR /code", "description": "Set the working directory in Dockerfile." }
+          ]
+        }
+      ]
+    }
+  }
+  
