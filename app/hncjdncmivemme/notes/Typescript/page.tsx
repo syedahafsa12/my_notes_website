@@ -539,7 +539,7 @@ let sum: Sum = function (num1, num2) {
 }
 console.log(sum(3, 6)); // 9`}
                 </pre>
-                <p>Anonymous functions don’t have a name and are assigned to variables.</p>
+                <p>Anonymous functions don&apos;t have a name and are assigned to variables.</p>
               </li>
             </ul>
           </section>

@@ -43,8 +43,8 @@ const Notes: React.FC = () => {
         <li>✅ Virtual Machine Platform</li>
       </ul>
     </li>
-    <li><strong className="font-semibold">Open WSL:</strong> If WSL doesn’t open, restart your computer and enter BIOS settings (key varies by PC). Enable WSL from BIOS settings.</li>
-    <li><strong className="font-semibold">Download Docker:</strong> Install Docker and check if it’s working by typing <code>docker -v</code> in the command prompt.</li>
+    <li><strong className="font-semibold">Open WSL:</strong> If WSL doesn&apos;t open, restart your computer and enter BIOS settings (key varies by PC). Enable WSL from BIOS settings.</li>
+    <li><strong className="font-semibold">Download Docker:</strong> Install Docker and check if it&apos;s working by typing <code>docker -v</code> in the command prompt.</li>
   </ul>
 </section>
 
