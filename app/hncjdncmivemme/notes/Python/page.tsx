@@ -78,7 +78,7 @@ const Notes: React.FC = () => {
           <section className="bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 mb-4">New Python Notes</h2>
             <ul className="list-disc pl-5 text-gray-800">
-              <li>name="hafsa"</li>
+              <li>name=&quot;hafsa&quot;</li>
               <li>print(type(name))  # to check type like string or what of variable </li>
               <li>print(id(name))  # to check variables physical location</li>
               <li>print([i for i in dir(name) if &quot;__&quot; not in i])  # to check all the methods and attributes of variable or any type like str</li>
@@ -92,13 +92,13 @@ const Notes: React.FC = () => {
               </ul>
               <li>Types:</li>
               <ul className="list-inside list-disc mt-2">
-                <li>names: list[str] = ['a', 'b']  # list only in string</li>
+                <li>names: list[str] = [&apos;a&apos;, &apos;b&apos;]  # list only in string</li>
                 <li>names: bool = True</li>
                 <li>names: int = 8</li>
                 <li>names: float = 7.5</li>
                 <li>names: str = &quot;yy&quot;</li>
                 <li>names: any = &quot;ji&quot;</li>
-                <li>name: tuple[str, int] = ("pk", 8)  # you can add any type, you can&apos;t add any other type that is not defined in your tuple</li>
+                <li>name: tuple[str, int] = (&quot;pk&quot;, 8)  # you can add any type, you can&apos;t add any other type that is not defined in your tuple</li>
                 <li>variable ka naam small</li>
               </ul>
               <li>Special characters ko simple characters ma convert krne ke liye backslash lagaen:</li>
@@ -106,7 +106,7 @@ const Notes: React.FC = () => {
                 <li>name: str = &apos;muhammad qasim \n father\&apos;s name&apos;</li>
               </ul>
               <li>Single quote =&apos;&apos; ye bhi string par is ke andar apostrophe nhi laga sakte</li>
-              <li>Double quote = "string" is ke andar double quote nhi laga sakte</li>
+              <li>Double quote = &quot;string&quot; is ke andar double quote nhi laga sakte</li>
               <li>Triple quote = &apos;&apos;&apos;hi&apos;&apos;&apos;ke andar \n for new line nhi krna parta == &quot;&quot;&quot;k&quot;&quot;&quot;</li>
               <li>Backslash = \ for line continue</li>
               <ul className="list-inside list-disc mt-2">
@@ -114,7 +114,7 @@ const Notes: React.FC = () => {
               </ul>
               <li>F STRING:</li>
               <ul className="list-inside list-disc mt-2">
-                <li>card: str = f &quot;&quot;&quot;education: {edu}&quot;&quot;&quot;</li>
+                <li>card: str = f &quot;&quot;&quot;education: {edu}&quot; &quot; &quot;</li>
                 <li>or you can use f &apos;&apos;&apos;education: {edu} {2 + 8 + 9}&apos;&apos;&apos; # f string me ap curly bracket m kuch bhi kr sakte hen</li>
                 <li>backtick nhai chalta</li>
               </ul>
