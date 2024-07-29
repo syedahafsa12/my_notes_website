@@ -28,7 +28,7 @@ const Login: React.FC = () => {
     sessionStorage.setItem('authenticated', 'true');
 
     // Redirect to the notes page with a default category
-    router.push('/cccpppnns'); // Adjust the path as needed
+    router.push('/hncjdncmivemme'); // Adjust the path as needed
   };
 
   return (

@@ -27,12 +27,26 @@ const Notes: React.FC = () => {
         </div>
 
         <div className="space-y-8">
-          <section className="bg-white p-6 rounded-lg shadow-lg">
-            <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 mb-4">Purpose of Docker</h2>
-            <ul className="list-disc pl-5 text-gray-800">
-              <li><strong className="font-semibold">What It Does:</strong> Docker helps run apps in special environments called containers. This ensures your app works the same everywhere.</li>
-            </ul>
-          </section>
+        <section className="bg-white p-6 rounded-lg shadow-lg">
+  <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 mb-4">Purpose of Docker</h2>
+  <ul className="list-disc pl-5 text-gray-800">
+    <li><strong className="font-semibold">What It Does:</strong> Docker helps run apps in special boxes called containers. This makes sure your app works the same everywhere.</li>
+  </ul>
+</section>
+
+<section className="bg-white p-6 rounded-lg shadow-lg">
+  <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 mb-4">Docker Installation</h2>
+  <ul className="list-disc pl-5 text-gray-800">
+    <li><strong className="font-semibold">Turn Windows Features On or Off:</strong>
+      <ul className="list-inside list-disc mt-2">
+        <li>✅ Windows Subsystem for Linux</li>
+        <li>✅ Virtual Machine Platform</li>
+      </ul>
+    </li>
+    <li><strong className="font-semibold">Open WSL:</strong> If WSL doesn’t open, restart your computer and enter BIOS settings (key varies by PC). Enable WSL from BIOS settings.</li>
+    <li><strong className="font-semibold">Download Docker:</strong> Install Docker and check if it’s working by typing <code>docker -v</code> in the command prompt.</li>
+  </ul>
+</section>
 
           <section className="bg-white p-6 rounded-lg shadow-lg">
             <h2 className="text-2xl md:text-3xl font-semibold text-purple-600 mb-4">Installing Docker</h2>
